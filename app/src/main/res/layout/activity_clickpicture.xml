@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClickpictureActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/clickpicturebg"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click or upload image\n  to scan ingredients"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:paddingTop="20dp"
+            android:layout_marginBottom="5dp">
+        </TextView>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ingredientimagebox"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:srcCompat="@drawable/imagebox"-->
+<!--            android:layout_marginTop="10dp">-->
+<!--        </ImageView>-->
+<!--        <ImageView-->
+<!--            android:id="@+id/ingredientimagebox"-->
+<!--            android:layout_width="252dp"-->
+<!--            android:layout_height="252dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_gravity="center"-->
+<!--            app:srcCompat="@drawable/ic_launcher_background"-->
+<!--            android:scaleType="centerCrop">-->
+<!--        </ImageView>-->
+
+        <ImageView
+            android:id="@+id/ingredientimagebox"
+            android:layout_width="325dp"
+            android:layout_height="200dp"
+            android:src="@drawable/imagebox"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop">
+        </ImageView>
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TableRow>
+
+                <ImageButton
+                    android:id="@+id/cameraBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cameraicon"
+                    android:background="#00000000"
+                    android:layout_column="1">
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/galleryBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/galleryicon"
+                    android:background="#00000000"
+                    android:layout_column="2">
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/trashBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/trashicon"
+                    android:background="#00000000"
+                    android:layout_column="3">
+                </ImageButton>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of ingredients"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp">
+        </TextView>
+
+<!--        <ImageView-->
+<!--            android:layout_width="325dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:src="@drawable/ingredientsbox"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="10dp">-->
+<!--        </ImageView>-->
+
+        <EditText
+            android:id="@+id/ingredientsbox"
+            android:layout_width="325dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:inputType="textMultiLine"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:lines="6"
+            android:scrollHorizontally="false"
+            android:gravity="top|left" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/submitbutton"
+            android:background="#00000000"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:clickable="true">
+        </ImageButton>
+
+    </LinearLayout>
+</RelativeLayout>

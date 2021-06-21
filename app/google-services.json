@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "275234926656",
+    "firebase_url": "https://health-inspector-72cac-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "health-inspector-72cac",
+    "storage_bucket": "health-inspector-72cac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275234926656:android:44a8960fddaeadd32cafa5",
+        "android_client_info": {
+          "package_name": "com.example.healthinspector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275234926656-5pcv4k37j654qfotj4aiipegiueh1jov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthinspector",
+            "certificate_hash": "50bd5a034eee121f11adb0a9d9c431728ba6aeb4"
+          }
+        },
+        {
+          "client_id": "275234926656-153sgsjl7nsuaruout5c1mts6kv8cnr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCilUmOqI5LJcr-5GLJg_-7u0ypH9TkTh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275234926656-153sgsjl7nsuaruout5c1mts6kv8cnr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

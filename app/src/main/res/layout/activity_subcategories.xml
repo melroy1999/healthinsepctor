@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubcategoriesActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/clickpicturebg"
+        >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "vertical">
+        <ListView
+            android:id = "@+id/list"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"/>
+    </LinearLayout>
+
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="150dp"-->
+<!--        app:cardElevation="10dp"-->
+<!--        app:cardCornerRadius="20dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        app:cardBackgroundColor="@color/white"-->
+<!--        app:cardMaxElevation="12dp"-->
+<!--        app:cardPreventCornerOverlap="true"-->
+<!--        app:cardUseCompatPadding="true"-->
+<!--        android:layout_alignParentRight="true">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/subcategoryicon"-->
+<!--            android:layout_width="75dp"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:src="@drawable/userlogo"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginVertical="15dp">-->
+<!--        </ImageView>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/subcategorytext"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Chaithali is cutiepai!"-->
+<!--            android:textSize="25dp"-->
+<!--            android:textColor="@color/colorPrimaryDark"-->
+<!--            android:layout_marginLeft="100dp"-->
+<!--            android:layout_gravity="center_vertical">-->
+<!--        </TextView>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
